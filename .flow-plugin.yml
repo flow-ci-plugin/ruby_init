@@ -1,0 +1,23 @@
+
+name: ruby_init
+version: 0.0.1
+language: ruby
+description: Ruby environment initialize
+public: true
+tags:
+  - ruby
+  - init
+inputs:
+  - name: FLOW_VERSION
+    editable: false
+outputs:
+  - name: FLOW_RVM_VERSION
+  - name: FLOW_RUBY_VERSION
+  - name: FLOW_NODE_VERSION
+  - name: FLOW_GEM_VERSION
+  - name: FLOW_BUNDLE_VERSION
+script_path: ./run.sh  
+  
+template: |  
+  
+  

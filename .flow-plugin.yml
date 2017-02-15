@@ -1,9 +1,9 @@
 
 name: ruby_init
-version: 0.0.2
+version: 0.0.1
 language: ruby
-description: Ruby environment initialize111
-public: false
+description: Ruby environment initialize
+public: true
 tags:
   - ruby
   - init

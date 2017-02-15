@@ -9,7 +9,7 @@ tags:
   - init
 inputs:
   - name: FLOW_VERSION
-    editable: false
+    editable: true
 outputs:
   - name: FLOW_RVM_VERSION
   - name: FLOW_RUBY_VERSION

@@ -38,7 +38,7 @@ source $HOME/.rvm/scripts/rvm
 source $HOME/.nvm/nvm.sh
 flow_cmd "echo $FLOW_PROJECT_NAME" --echo
 flow_cmd "rvm -v" --echo
-flow_cmd "nvm use 0.10.32" --echo
+flow_cmd "nvm use 4.0.0" --echo
 flow_cmd "rvm use $FLOW_VERSION --install --binary --fuzzy" --echo
 flow_cmd "ruby -v" --echo
 flow_cmd "node -v" --echo

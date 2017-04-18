@@ -2,22 +2,21 @@
 name: ruby_init
 version: 0.0.1
 language: ruby
-description: Ruby environment initialize
+description: "本插件主要为您输出本flow的默认设置，包括默认的环境变量和一些基础件(rvm, bundler等)，
+运行这个插件后，您即可在日志中查看这些相应的信息，并可以在后续的插件中使用这些环境变量以及基础件
+
+- 注意事项
+一般情况下放在flow 的第一个插件"
 public: true
 tags:
   - ruby
   - init
-inputs:
-  - name: FLOW_VERSION
-    editable: true
 outputs:
   - name: FLOW_RVM_VERSION
   - name: FLOW_RUBY_VERSION
   - name: FLOW_NODE_VERSION
   - name: FLOW_GEM_VERSION
   - name: FLOW_BUNDLE_VERSION
-script_path: ./run.sh  
-  
-template: |  
-  
-  
+script_path: ./run.sh
+
+template: |
